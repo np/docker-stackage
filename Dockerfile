@@ -6,7 +6,7 @@ FROM quay.io/np__/arch
 #ENV CABAL_VERSION 1.18.0.3
 
 RUN pacman --noconfirm -Syu zsh vim &&\
-    pacman -D --asdeps systemd-sysvcompat cronie \
+    pacman -D --asdeps systemd-sysvcompat \
                        device-mapper dhcpcd \
                        licenses logrotate netctl \
                        nano texinfo usbutils &&\
