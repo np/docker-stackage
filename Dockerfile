@@ -1,4 +1,4 @@
-FROM d.ail/arch
+FROM quay.io/np__/arch
 
 #ENV GHC_VERSION 7.4.2
 #ENV GHC_VERSION 7.6.3
